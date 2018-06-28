@@ -3,14 +3,18 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { AngularBillboardModule } from 'angular-billboard';
+import { ChartComponent } from './chart/chart.component';
+import { MatCardModule } from '@angular/material';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ChartComponent
   ],
   imports: [
     BrowserModule,
-    AngularBillboardModule
+    AngularBillboardModule,
+    MatCardModule
 
   ],
   providers: [],
