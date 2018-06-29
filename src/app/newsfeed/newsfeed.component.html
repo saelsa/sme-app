@@ -1,0 +1,13 @@
+<mat-toolbar color="primary">SME Newsfeed</mat-toolbar>
+<mat-accordion multi="true">
+    <mat-expansion-panel *ngFor="let article of data.articles">
+      <mat-expansion-panel-header>
+        {{ article.title }}
+      </mat-expansion-panel-header>
+      <p>{{ article.description }}</p>
+      <mat-action-row>
+          <button mat-button color="primary"><a href="{{ article.url }}" target="_blank">READ MORE</a></button>
+        </mat-action-row>
+    </mat-expansion-panel>
+  </mat-accordion>
+

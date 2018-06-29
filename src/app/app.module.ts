@@ -1,23 +1,38 @@
 import { BrowserModule } from '@angular/platform-browser';
+import { BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import { NgModule } from '@angular/core';
+import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
 import { AngularBillboardModule } from 'angular-billboard';
 import { ChartComponent } from './chart/chart.component';
-import { MatCardModule } from '@angular/material';
+import {
+  MatInputModule,
+  MatCardModule,
+  MatButtonModule,
+  MatToolbarModule,
+  MatExpansionModule } from '@angular/material';
+import { NewsfeedComponent } from './newsfeed/newsfeed.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    ChartComponent
+    ChartComponent,
+    NewsfeedComponent
   ],
   imports: [
     BrowserModule,
+    BrowserAnimationsModule,
+    HttpModule,
     AngularBillboardModule,
-    MatCardModule
+    MatInputModule,
+    MatCardModule,
+    MatButtonModule,
+    MatToolbarModule,
+    MatExpansionModule
 
   ],
-  providers: [],
+  providers: [AppComponent],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
