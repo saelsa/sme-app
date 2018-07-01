@@ -11,15 +11,18 @@ import {
   MatCardModule,
   MatButtonModule,
   MatToolbarModule,
-  MatExpansionModule } from '@angular/material';
+  MatExpansionModule,
+  MatTabsModule} from '@angular/material';
 import { NewsfeedComponent } from './newsfeed/newsfeed.component';
 import { AppRoutingModule } from './/app-routing.module';
+import { HeaderComponent } from './header/header.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ChartComponent,
-    NewsfeedComponent
+    NewsfeedComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,
@@ -31,6 +34,7 @@ import { AppRoutingModule } from './/app-routing.module';
     MatButtonModule,
     MatToolbarModule,
     MatExpansionModule,
+    MatTabsModule,
     AppRoutingModule
 
   ],
