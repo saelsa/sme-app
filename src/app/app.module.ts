@@ -13,6 +13,7 @@ import {
   MatToolbarModule,
   MatExpansionModule } from '@angular/material';
 import { NewsfeedComponent } from './newsfeed/newsfeed.component';
+import { AppRoutingModule } from './/app-routing.module';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,8 @@ import { NewsfeedComponent } from './newsfeed/newsfeed.component';
     MatCardModule,
     MatButtonModule,
     MatToolbarModule,
-    MatExpansionModule
+    MatExpansionModule,
+    AppRoutingModule
 
   ],
   providers: [AppComponent],
