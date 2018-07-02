@@ -57,7 +57,7 @@ export class ChartComponent implements OnInit {
           }
       },
           title: {
-              text: 'Trade openness'
+              text: 'Ratio of Trade openness'
           }
       }
   ];
