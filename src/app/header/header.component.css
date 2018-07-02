@@ -1,0 +1,8 @@
+.newsfeed-header {
+  height: 100%;
+  white-space: pre-wrap;
+}
+
+.mat-accordion>.mat-expansion-panel-spacing:first-child, .mat-accordion>:first-child:not(.mat-expansion-panel) .mat-expansion-panel-spacing{
+  margin-top: 20px;
+}

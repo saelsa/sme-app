@@ -1,8 +1,10 @@
-<mat-toolbar color="primary">SME Newsfeed</mat-toolbar>
+<mat-toolbar color="primary" style="white-space: pre-wrap"><p class="mat-subheading-1">All the latest
+  news regarding cross-border trading of European SMEs.
+</p></mat-toolbar>
 <mat-accordion multi="true">
     <mat-expansion-panel *ngFor="let article of data.articles">
-      <mat-expansion-panel-header>
-        {{ article.title }}
+      <mat-expansion-panel-header style="height: 80px">
+        {{ article.title.slice(0,50) }} ...
       </mat-expansion-panel-header>
       <p>{{ article.description }}</p>
       <mat-action-row>
