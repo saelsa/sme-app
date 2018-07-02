@@ -1,6 +1,6 @@
 # sme-app
 
-An app that shows data and relevant news regarding the unexploited export potential of SMEs. This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.8.
+An Angular app that shows data and relevant news regarding the unexploited export potential of SMEs. Either visit take a look at the [website](http://saelsa.atwebpages.com/SME/) or clone the project and follow the steps below. 
 
 ## How to use 
 
